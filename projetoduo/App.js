@@ -1,13 +1,16 @@
 import React from 'react';
-
-import { Text } from 'react-native';
+import Home from './pages/Home/Home'
 
 
 
 const App = () => {
 
   return (
-      <Text>AAAAAAAAAAAAAA</Text>
+    
+    <Home />  
+       
   );
 };
+
+
 export default App;
