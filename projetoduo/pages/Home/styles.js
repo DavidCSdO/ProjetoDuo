@@ -4,11 +4,11 @@ const sty = StyleSheet.create({
 
     textoEx: {
       fontSize: 18,
-      width: 150,
+      width: 400,
       height: 300, 
       position: 'absolute',
-      left: 250,
-      top: 225,
+     
+      top: 90,
       textAlign: 'center',
       color: '#333',
       fontFamily: 'Josefin Sans'
@@ -19,7 +19,7 @@ const sty = StyleSheet.create({
       width: 400,
       height: 300, 
       position: 'absolute',
-      top: 605,
+      top: 685,
       textAlign: 'center',
       color: '#333',
       fontFamily: 'Josefin Sans'
@@ -33,8 +33,11 @@ const sty = StyleSheet.create({
     },
   
     container: {
+        display: 'flex',
         flex: 1, 
-        backgroundColor: '#EBEBEB',        
+        backgroundColor: '#fff', 
+        
+             
     },
 
     imagem:{
@@ -44,22 +47,91 @@ const sty = StyleSheet.create({
             top: 140,
             borderRadius: 10,        
     },
+
+    im1:{
+      width: 170,
+      height: 170,
+      left: 10,
+      top: 150,
+         
+},
+
+im2:{
+  width: 170,
+  height: 170,
+  left: 230,
+  top: -90,
+        
+},
+
+im3:{
+  width: 170,
+  height: 170,
+  left: 10,
+  top: -70,
+      
+},
+
+im4:{
+  width: 170,
+  height: 170,
+  left: 230,
+  top: -310,
+       
+},
     texto: {
       fontSize: 50, 
       color: '#333'
     },
 
     icons:{
+      top: 20,
+      width:45,
+      height:45   ,
+      marginBottom: 0,    
+    },
+
+    i2:{
       
-        width: 40,
-        height: 40 
+      top: -40,
+      alignSelf: 'center' 
+  },
+
+    tc1: {
+      fontSize: 20,
+      left: 10,
+      top: 150,
+      height:70,
+      width:190,
+      margin:0
+    },
+    tc2: {
+      fontSize: 20,
+      left: 230,
+      top: -90,
+      height:70,
+      width:190,
+      margin:0,
+     
     },
     
-    next: {
-      fontSize: 24,
-      left: 105,
-      top: 140,
-    }
+    tc3: {
+      fontSize: 20,
+      left: 10,
+      top: -70,
+      height:70,
+      width:190,
+      margin:0
+    },
+    tc4: {
+      fontSize: 20,
+      left: 220,
+      top: -310,
+      height:70,
+      width:190,
+      margin:0,
+    },
+    
     
 });
 

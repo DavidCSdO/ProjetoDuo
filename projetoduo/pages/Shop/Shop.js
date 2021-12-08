@@ -1,36 +1,45 @@
 import React from 'react';
-import { Image, Text, View, TouchableOpacity } from 'react-native';
+import { Image, Text, View, ScrollView } from 'react-native';
 import st from './style'
 
 function Shop() {
     return (
         
-      
+      <ScrollView>
         <View style ={st.container}>
       
           <View style ={st.header}>
-            <Text style ={st.texto}>The Ruin</Text>
+
+            <Image style={st.icons} source={require('../../images/m.png')}/>
+            <Image style={st.i2} source={require('../../images/lg.png')}/>
+
+ 
           </View>
-          <Text style={{fontSize: 50, textAlign: 'center'}}>Shop</Text>
+        
+            <Image style={st.imagem} source= {require ('../../images/f1.png')}/>
+         
+            <Text style ={st.textoEx}>
 
-  
-            <Image style={st.imagem} source= {require ('../../images/c.png')}/>
+            Quadro Decorativo Mulher Collage
 
-            <Image style={st.imagem2} source= {require ('../../images/g.png')}/>
-
-            <Image style={st.imagem3} source= {require ('../../images/s.png')}/>
-
-            <Image style={st.imagem4} source= {require ('../../images/w.png')}/> 
-            
-  
-            <Text style ={st.textoEx2}>
-            Direitos de arte reservados a David Cardoso; 
-            Direitos da aplicação reservados ao Grupo KDRF;
             </Text>
+
+            <Text style ={st.textoEx2}>
+            - FEITO COM MOLDURA EM MADEIRA MACIÇA
+            - ACRÍLICO DE 2MM SOBRE A ARTE
+            </Text>
+
+            <Text style ={st.textoEx3}>
+            De: R$ 129,99
+            R$ 51,90
+            6x de R$ 8,67 no cartão
+            </Text>
+
+            <Image style={st.imc} source= {require ('../../images/cp.png')}/>
           
     
         </View>
-          
+        </ScrollView>   
       )
 }
 

@@ -35,28 +35,41 @@ function Home() {
       <View style ={sty.container}>
     
         <View style ={sty.header}>
-          <Text style ={sty.texto}>The Ruin</Text>
-          <Image style={sty.icons} source={require('../../images/dm.png')}/>
+
+        <Image style={sty.icons} source={require('../../images/m.png')}/>
+        <Image style={sty.i2} source={require('../../images/lg.png')}/>
+        
+         
         </View>
 
-          <Image style={sty.imagem} source= {require ('../../images/c.png')}/>
           
-          <Text style ={sty.textoEx}>Venda de arte digital
-                                  Produtos 100% originais
-                                  com todas as permissões e direitos autorais!
-                                  NFT’s de raridade alta e qualidade.
-                                  Ganhe guerras de montrinhos com a nossa vasta coleção de “cartas”.
+          
+          <Text style ={sty.textoEx}>SITE DE VENDAS DE QUADROS DECORATIVOS
+          Aqui você encontra itens decorativos para compor e deixar a sua decoração única e com a sua personalidade.
+          Aposte em elementos simples e obtenha um ambiente aconchegante, elegante, moderno e diferenciado.
           </Text>
-          <TouchableOpacity>
-              <Text style={sty.next}>Next</Text>
-          </TouchableOpacity>
 
-          <Text style ={sty.textoEx2}>
-            Produtos direcionados ao público adepto a esquemas de pirâmide e batalhas de criaturas virtuais que só vão te destruir!
-          </Text>
+          <View>
+
+          <Image style={sty.im1} source={require('../../images/q1.png')}/>
+          <Text style={sty.tc1}> Quadro decorativo Mulher Collage
+          R$ 51,99</Text>
+          <Image style={sty.im2} source={require('../../images/q2.png')}/>
+          <Text style={sty.tc2}> Conjunto de Quadros Arte moderna
+          R$ 199,99</Text>
+          <Image style={sty.im3} source={require('../../images/q3.png')}/>
+          <Text style={sty.tc3}> Quadro decorativo Bem vindo
+          R$ 199,99</Text>
+          <Image style={sty.im4} source={require('../../images/q4.png')}/>
+          <Text style={sty.tc4}> Quadro decorativo Paciência
+          R$ 199,99</Text>
         
-  
+
+          </View>
+
       </View>
+
+      
         
     )
 }

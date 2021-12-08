@@ -4,26 +4,55 @@ const st = StyleSheet.create({
 
     textoEx: {
       fontSize: 18,
-      width: 150,
+      width: 300,
       height: 300, 
       position: 'absolute',
-      left: 250,
-      top: 225,
+      left: 60,
+      top: 465,
       textAlign: 'center',
       color: '#333'
     },
+    i2:{
+      
+      top: -40,
+      alignSelf: 'center',
+      
+  },
+  icons:{
+    top: 20,
+    width:45,
+    height:45   ,
+    marginBottom: 0,    
+  },
+  header:{
+    justifyContent: 'space-between',
+    fontSize: 90,
+    backgroundColor: '#fff',
+   
+  },
 
     textoEx2: {
       fontSize: 18,
-      width: 400,
+      width: 380,
       height: 300, 
       position: 'absolute',
-      top: 730,
-      textAlign: 'center',
-      color: '#fff',
-      backgroundColor: '#333',
+      top: 500,
+      left: 10,
       margin: 0,
       fontFamily:'Josefin Sans',
+      justifyContent: 'flex-start'
+    },
+    textoEx3: {
+      fontSize: 18,
+      width: 300,
+      height: 300, 
+      position: 'absolute',
+      top: 570,
+      left: 40,
+      textAlign: 'center',
+      margin: 0,
+      fontFamily:'Josefin Sans',
+      justifyContent: 'flex-start'
     },
   
     header:{
@@ -34,39 +63,25 @@ const st = StyleSheet.create({
   
     container: {
         flex: 1, 
-        backgroundColor: '#EBEBEB',        
+        backgroundColor: '#fff', 
+        height:1000,       
     },
 
     imagem:{
-            width: 160,
-            height: 160,
-            left: 20,
-            top: 71,
-            borderRadius: 10,        
-    },
-    imagem2:{
-            width: 160,
-            height: 160,
-            left: 231,
-            top: -90,
-            borderRadius: 10,        
+      width: 390,
+      height: 390,
+            left: 11,
+            top: -50,
+                    
     },
 
-    imagem3:{
-            width: 160,
-            height: 160,
-            left: 20,
-            top: -10,
-            borderRadius: 10,        
-    },
-
-    imagem4:{
-            width: 160,
-            height: 160,
-            left: 231,
-            top: -169,
-            borderRadius: 10,        
-    },
+    imc:{
+      width: 390,
+      height: 600,
+      left: 11,
+      top: 110,
+      borderRadius: 10,        
+},
     
     texto: {
       fontSize: 50, 
@@ -74,11 +89,7 @@ const st = StyleSheet.create({
       textAlign: 'center',
     },
 
-    icons:{
-      
-        width: 90,
-        height: 90 
-    },
+    
     
     next: {
       fontSize: 24,
