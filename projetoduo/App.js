@@ -8,12 +8,11 @@ const App = () => {
 
   return (
     
-      //<Home /> 
-      <Shop />
+      <Home /> 
+     // <Shop />
 
     
   );
 };
-
 
 export default App;

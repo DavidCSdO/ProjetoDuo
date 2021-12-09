@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text, View, ScrollView } from 'react-native';
+import { Image, Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import st from './style'
 
 function Shop() {
@@ -9,15 +9,18 @@ function Shop() {
         <View style ={st.container}>
       
           <View style ={st.header}>
-
+          <TouchableOpacity>
             <Image style={st.icons} source={require('../../images/m.png')}/>
-            <Image style={st.i2} source={require('../../images/lg.png')}/>
+            </TouchableOpacity>
 
+            <TouchableOpacity>
+            <Image style={st.i2} source={require('../../images/lg.png')}/>
+            </TouchableOpacity>
  
           </View>
-        
+          <TouchableOpacity>
             <Image style={st.imagem} source= {require ('../../images/f1.png')}/>
-         
+            </TouchableOpacity>
             <Text style ={st.textoEx}>
 
             Quadro Decorativo Mulher Collage
@@ -30,8 +33,7 @@ function Shop() {
             </Text>
 
             <Text style ={st.textoEx3}>
-            De: R$ 129,99
-            R$ 51,90
+            - R$ 51,90
             6x de R$ 8,67 no cartão
             </Text>
 

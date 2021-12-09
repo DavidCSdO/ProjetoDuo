@@ -79,6 +79,8 @@ im4:{
   top: -310,
        
 },
+
+
     texto: {
       fontSize: 50, 
       color: '#333'
